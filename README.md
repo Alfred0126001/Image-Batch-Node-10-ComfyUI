@@ -17,3 +17,13 @@ It automatically resizes all input images to match the dimensions of the first i
 2. Clone this repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/ComfyUI-SimpleBatch-Node.git](https://github.com/YOUR_USERNAME/ComfyUI-SimpleBatch-Node.git)
+3Restart ComfyUI.
+
+### Usage
+Search for the node named "Batch 10 Images (Auto-Resize)".
+
+Connect your primary image to image1 (this sets the resolution).
+
+Connect other images to image2...image10. Inputs can be left empty.
+
+Connect the output to any node that accepts an image batch (e.g., "Video Combine", "Save Image", "VAE Encode").
